@@ -9,66 +9,66 @@ Only testing strategies which we have selected to perform are checked.
 ## Black Box
 
 - [ ] Random testing
-- [ ] Failure/dirty tests / error guessing
+- [x] Failure/dirty tests / error guessing
 - [ ] Checklists
 - [ ] ~~Operational profiles~~
-- [ ] Input domain testing
-  - [ ] Equivalence classes / partitioning
-    - [ ] Weak normal equivalence class testing
+- [x] Input domain testing
+  - [x] Equivalence classes / partitioning
+    - [x] Weak normal equivalence class testing
     - [ ] Strong normal equivalence class testing
   - [ ] Boundary value analysis
     - [ ] Extreme point combination
     - [ ] N x 1
       - [ ] Weak N x 1
       - [ ] Strong N x 1
-- [ ] Decision tables
-- [ ] Cause-effect graphs
+- [x] Decision tables
+- [x] Cause-effect graphs
 - [ ] ~~Syntax-driven testing~~
-- [ ] Finite state machines (coverage)
-  - [ ] Unified Markov model (usage based testing)
-- [ ] Combinatorial testing
-  - [ ] Pairwise testing
+- [x] Finite state machines (coverage)
+  - [ ] ~~Unified Markov model (usage based testing)~~
+- [x] Combinatorial testing
+  - [x] Pairwise testing
   - [ ] Functional testing (input-output analysis)
 
 ## White Box
 
-- [ ] Control flow coverage
-  - [ ] Control flow graph
-  - [ ] Statement coverage
-  - [ ] Branch coverage
+- [x] Control flow coverage
+  - [x] Control flow graph
+  - [x] Statement coverage
+  - [x] Branch coverage
   - [ ] Condition/predicate coverage
   - [ ] Modified condition/predicate coverage
   - [ ] Path coverage
   - [ ] Symbolic execution
   - [ ] Concolic testing
     - [ ] Reverse path analysis
-- [ ] Data flow coverage
-  - [ ] Static data flow testing
-    - [ ] Data definition, use and dependency analysis
-      - [ ] All p-use some c-use testing
-      - [ ] All c-use some p-use testing
-      - [ ] All-use testing
-  - [ ] Dynamic data flow testing
-    - [ ] Data dependency graphs
-      - [ ] Data slices
-- [ ] Error flow coverage
+- [x] Data flow coverage
+  - [x] Static data flow testing
+    - [x] Data definition, use and dependency analysis
+      - [x] All p-use some c-use testing
+      - [x] All c-use some p-use testing
+      - [x] All-use testing
+  - [x] Dynamic data flow testing
+    - [x] Data dependency graphs
+      - [x] Data slices
+- [x] Error flow coverage
   - [ ] ~~Statistical testing~~
     - [ ] ~~Fault seeding~~
     - [ ] ~~Independent tests~~
-  - [ ] Software mutations
-    - [ ] Value mutations
-    - [ ] Decision mutations
-    - [ ] Statement mutations
-    - [ ] Mothra
+  - [x] Software mutations
+    - [x] Value mutations
+    - [x] Decision mutations
+    - [x] Statement mutations
+    - [x] Mothra
 
-## Integration
+### Integration
 
-- [ ] Dependency graphs
-- [ ] Call graphs
+- [x] Dependency graphs
+- [x] Call graphs
 - [ ] Paths
 - [ ] Non-incremental testing (big bang)
-- [ ] Incremental testing
-  - [ ] Bottom-up
+- [x] Incremental testing
+  - [x] Bottom-up
   - [ ] Top-down
   - [ ] Sandwich testing
   - [ ] Modified sandwich testing
