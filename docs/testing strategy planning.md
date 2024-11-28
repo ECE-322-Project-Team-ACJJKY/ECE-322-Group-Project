@@ -12,9 +12,9 @@ Only testing strategies which we have selected to perform are checked.
 - [x] Failure/dirty tests / error guessing
 - [ ] Checklists
 - [ ] ~~Operational profiles~~
-- [x] Input domain testing
-  - [x] Equivalence classes / partitioning
-    - [x] Weak normal equivalence class testing
+- [x] Input domain testing (Katharine)
+  - [x] Equivalence classes / partitioning (Katharine)
+    - [x] Weak normal equivalence class testing (Katharine)
     - [ ] Strong normal equivalence class testing
   - [ ] Boundary value analysis
     - [ ] Extreme point combination
@@ -26,28 +26,28 @@ Only testing strategies which we have selected to perform are checked.
 - [ ] ~~Syntax-driven testing~~
 - [x] Finite state machines (coverage)
   - [ ] ~~Unified Markov model (usage based testing)~~
-- [x] Combinatorial testing
-  - [x] Pairwise testing
+- [ ] Combinatorial testing
+  - [ ] Pairwise testing
   - [ ] Functional testing (input-output analysis)
 
 ## White Box
 
-- [x] Control flow coverage
-  - [x] Control flow graph
-  - [x] Statement coverage
-  - [x] Branch coverage
+- [x] Control flow coverage (Abdulaziz)
+  - [x] Control flow graph (Abdulaziz)
+  - [x] Statement coverage (Abdulaziz)
+  - [x] Branch coverage (Abdulaziz)
   - [ ] Condition/predicate coverage
   - [ ] Modified condition/predicate coverage
   - [ ] Path coverage
   - [ ] Symbolic execution
   - [ ] Concolic testing
     - [ ] Reverse path analysis
-- [x] Data flow coverage
-  - [x] Static data flow testing
-    - [x] Data definition, use and dependency analysis
-      - [x] All p-use some c-use testing
-      - [x] All c-use some p-use testing
-      - [x] All-use testing
+- [x] Data flow coverage (Cedric)
+  - [x] Static data flow testing (Cedric)
+    - [x] Data definition, use and dependency analysis (Cedric)
+      - [x] All p-use some c-use testing (Cedric)
+      - [x] All c-use some p-use testing (Cedric)
+      - [x] All-use testing (Cedric)
   - [x] Dynamic data flow testing
     - [x] Data dependency graphs
       - [x] Data slices
@@ -63,12 +63,12 @@ Only testing strategies which we have selected to perform are checked.
 
 ### Integration
 
-- [x] Dependency graphs
-- [x] Call graphs
+- [x] Dependency graphs (Jeremy)
+- [x] Call graphs (Jeremy)
 - [ ] Paths
 - [ ] Non-incremental testing (big bang)
-- [x] Incremental testing
-  - [x] Bottom-up
+- [x] Incremental testing (Jeremy)
+  - [x] Bottom-up (Jeremy)
   - [ ] Top-down
   - [ ] Sandwich testing
   - [ ] Modified sandwich testing
