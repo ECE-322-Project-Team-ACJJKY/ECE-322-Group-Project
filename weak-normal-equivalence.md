@@ -1,5 +1,5 @@
 # weak normal equivalence class testing
-## wat is weak normal equivalence class testing
+## what is weak normal equivalence class testing
 designing a test case so that it covers one and only one invalid equivalence class and as many as possible valid equivalence classes
 ## test cases and outcomes
 | id | description | expected outcome | actual outcome |
