@@ -1,0 +1,8 @@
+"""Wordle Vocabulary"""
+import json
+from pathlib import Path
+from collections import defaultdict
+from typing import Iterable
+from .defaults import ALPHABET, WORD_LENGTH, WORDS_FILE, VOCAB_CACHE, INDEX_CACHE
+if __name__ == '__main__':
+    vocab = Vocabulary()

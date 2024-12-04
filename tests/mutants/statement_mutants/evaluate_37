@@ -1,0 +1,23 @@
+"""
+Evaluate Solver
+
+@author: Hrishikesh Terdalkar
+"""
+import json
+from tqdm import tqdm
+from numpy import average
+from .vocab import Vocabulary
+from .wordle import Wordle
+from .solver import WordleSolver
+from .defaults import EVALUATION_FILE
+
+def run_solver_on_all_words():
+    result = {'status': {}}
+    for v in tqdm(Vocabulary().vocab):
+        s = WordleSolver(Wordle(word=v))
+        s.solve()
+        result['status'][v] = (s.wordle.solved, s.wordle.num_attempts)
+        EVALUATION_FILE.write_text(json.dumps(result))
+    return result
+if __name__ == '__main__':
+    print(json.dumps(analyse_solver(), indent=2))
