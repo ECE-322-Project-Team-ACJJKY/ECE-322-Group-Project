@@ -51,7 +51,7 @@ Only testing strategies which we have selected to perform are checked.
   - [x] Dynamic data flow testing
     - [x] Data dependency graphs
       - [x] Data slices
-- [x] Error flow coverage (James)
+- [x] Error flow coverage
   - [ ] ~~Statistical testing~~
     - [ ] ~~Fault seeding~~
     - [ ] ~~Independent tests~~
