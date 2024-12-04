@@ -51,15 +51,15 @@ Only testing strategies which we have selected to perform are checked.
   - [x] Dynamic data flow testing
     - [x] Data dependency graphs
       - [x] Data slices
-- [x] Error flow coverage
+- [x] Error flow coverage (James)
   - [ ] ~~Statistical testing~~
     - [ ] ~~Fault seeding~~
     - [ ] ~~Independent tests~~
-  - [x] Software mutations
-    - [x] Value mutations
-    - [x] Decision mutations
-    - [x] Statement mutations
-    - [x] Mothra
+  - [x] Software mutations (James)
+    - [x] Value mutations (James)
+    - [x] Decision mutations (James)
+    - [x] Statement mutations (James)
+    - [x] Mothra (James)
 
 ### Integration
 
