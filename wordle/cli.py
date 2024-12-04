@@ -5,7 +5,7 @@
 import sys
 import logging
 
-from wordle.wordle import Wordle
+from .wordle import Wordle
 from .solver import WordleSolver
 from .defaults import MAXIMUM_ATTEMPTS
 
