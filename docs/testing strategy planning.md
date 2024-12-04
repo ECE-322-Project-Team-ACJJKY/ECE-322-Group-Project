@@ -16,19 +16,19 @@ Only testing strategies which we have selected to perform are checked.
   - [x] Equivalence classes / partitioning (Katharine)
     - [x] Weak normal equivalence class testing (Katharine)
     - [ ] Strong normal equivalence class testing
-  - [ ] Boundary value analysis
-    - [ ] Extreme point combination
-    - [ ] N x 1
-      - [ ] Weak N x 1
-      - [ ] Strong N x 1
+  - [ ] Boundary value analysis (Yenosibina)
+    - [ ] Extreme point combination (Yenosibina)
+    - [ ] N x 1 (Yenosibina)
+      - [ ] Weak N x 1 (Yenosibina)
+      - [ ] Strong N x 1 (Yenosibina)
 - [x] Decision tables
 - [x] Cause-effect graphs
 - [ ] ~~Syntax-driven testing~~
 - [x] Finite state machines (coverage)
   - [ ] ~~Unified Markov model (usage based testing)~~
-- [ ] Combinatorial testing
-  - [ ] Pairwise testing
-  - [ ] Functional testing (input-output analysis)
+- [ ] Combinatorial testing (Yenosibina)
+  - [ ] Pairwise testing (Yenosibina)
+  - [ ] Functional testing (input-output analysis) (Yenosibina)
 
 ## White Box
 
@@ -65,8 +65,8 @@ Only testing strategies which we have selected to perform are checked.
 
 - [x] Dependency graphs (Jeremy)
 - [x] Call graphs (Jeremy)
-- [ ] Paths
-- [ ] Non-incremental testing (big bang)
+- [ ] Paths (Yenosibina)
+- [ ] Non-incremental testing (big bang) (Yenosibina)
 - [x] Incremental testing (Jeremy)
   - [x] Bottom-up (Jeremy)
   - [ ] Top-down
