@@ -4,18 +4,16 @@ designing a test case so that it covers one and only one invalid equivalence cla
 ## test cases and outcomes
 | id | description | expected outcome | actual outcome |
 | ----------- | ----------- | ----------- | ----------- |
-| id | guessing the correct word | all the letters are green, a congratulations message is shown | as expected, exits the program |
-| id | guessing an incorrect word with no correct letters but with all valid letter inputs and is a valid word | all guessed letters of the word are grey | as expected |
-| id | guessing an incorrect word with a correct letter at the incorrect position | the correct letter is yellow | as expected |
-| id | guessing an incorrect word with a correct letter at the correct position | the correct letter is green | as expected |
-| id | guessing an incorrect word with a correct letter, where the letter appears twice in the word | if both at the correct potision, both letters are green; if one letter in the wrong position, one letter is green while the other is yellow; if both are in the wrong position, both are yellow | as expected |
-| id | guessing a correct letter twice in a word that only uses that letter once | if in the correct position, one is green and one is grey; if in the incorrect position, one is yellow and one is grey | if in the correct position, one is green and the other is yellow; if in the incorrect position, both are yellow|
-| id | guessing more words than permitted (6 times) with the incorrect word | the system will exit with a lost message | as expected |
-| id | inputting non-alphabetic characters, including whitespace | some sort of error message | as expected, general error about not being a valid word |
-| id | empty input | do nothing and does not take up a guess | as expected |
-| id | wrong length of input (too long or too short) | some sort of error message about the length | as expected, general error about not being a valid word |
-| id | guessing the same word multiple times | treats it the same as guessing a new word | error message about the word already being guessed |
+| valid |
+| 1 | input a valid word, ie. a 5 letter word that is in the system's dictionary | the system accepts the word as a guess | as expected |
+| invalid |
+| 2 | input a word of invalid length (< 5 OR > 5) | error message | as expected |
+| 3 | input a word with non-alphabetic characters | error message | as expected |
+| 4 | input a word that is not in the system's dictionary | error message | as expected |
+| outcomes |
+| 5 | input a word that matches with the target word | all letters are green, success message | as expected |
+| 6 | input a word that does not match the target word on the last guess | system exits with a lsot message | as expected |
 
 
-## relvance of prompts and usefulness of replies and repeatability (ChatGPT)
-Chat GPT was efficient in coming up with different test cases to generally test the wordle system, but was not efficient in discussing equivalence class testing and coming up with unique or many test cases for specifically testing with partioning. The results were relevant and mostly correct but surface level.
+## relevance of prompts and usefulness of replies and repeatability (ChatGPT)
+Chat GPT was efficient in coming up with different test cases to generally test the wordle system, though it did give somewhat an excessive amount of tests than what was required for weak normal equivalence class testing. The results were relevant and mostly correct but sometimes would repeat itself in functionality. For example, when asked `could you come up with some weak normal equivalence black box test cases for a wordle cli system`, it gave some test cases what could be in the same partition of functionality. For example, it gave the inputs being `less than 5 characters` and `more than 5 characters` as two seperate test cases when they should be combined to one invalid test case. As well, it gives the behaviour test cases of `incorrect guess` and `exceeded allowed number of guesses` as two seperate test cases, when the latter test case wouldn't exist, as an incorrect guess would exit the system. Overall, the relevance and usefullness of ChatGPT's replies were pretty good, though needing a few minor modifications.
