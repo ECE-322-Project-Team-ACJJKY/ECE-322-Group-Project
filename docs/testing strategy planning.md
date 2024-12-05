@@ -26,9 +26,9 @@ Only testing strategies which we have selected to perform are checked.
 - [ ] ~~Syntax-driven testing~~
 - [x] Finite state machines (coverage)
   - [ ] ~~Unified Markov model (usage based testing)~~
-- [ ] Combinatorial testing (Yenosibina)
-  - [ ] Pairwise testing (Yenosibina)
-  - [ ] Functional testing (input-output analysis) (Yenosibina)
+- [x] Combinatorial testing (Yenosibina)
+  - [x] Pairwise testing (Yenosibina)
+  - [x] Functional testing (input-output analysis) (Yenosibina)
 
 ## White Box
 
