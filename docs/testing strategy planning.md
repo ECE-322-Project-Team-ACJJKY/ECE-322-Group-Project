@@ -65,7 +65,7 @@ Only testing strategies which we have selected to perform are checked.
 
 - [x] Dependency graphs (Jeremy)
 - [x] Call graphs (Jeremy)
-- [ ] Paths (Yenosibina)
+- [ ] ~~Paths (Yenosibina)~~
 - [x] Non-incremental testing (big bang) (Yenosibina & Aziz)
 - [x] Incremental testing (Jeremy)
   - [x] Bottom-up (Jeremy)
