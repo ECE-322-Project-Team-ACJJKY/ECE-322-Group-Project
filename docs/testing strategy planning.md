@@ -16,11 +16,11 @@ Only testing strategies which we have selected to perform are checked.
   - [x] Equivalence classes / partitioning (Katharine)
     - [x] Weak normal equivalence class testing (Katharine)
     - [ ] Strong normal equivalence class testing
-  - [ ] Boundary value analysis (Yenosibina)
-    - [ ] Extreme point combination (Yenosibina)
-    - [ ] N x 1 (Yenosibina)
-      - [ ] Weak N x 1 (Yenosibina)
-      - [ ] Strong N x 1 (Yenosibina)
+  - [x] Boundary value analysis (Yenosibina)
+    - [x] Extreme point combination (Yenosibina)
+    - [x] N x 1 (Yenosibina)
+      - [x] Weak N x 1 (Yenosibina)
+      - [x] Strong N x 1 (Yenosibina)
 - [x] Decision tables
 - [x] Cause-effect graphs
 - [ ] ~~Syntax-driven testing~~
