@@ -130,6 +130,6 @@ It missed uses of `self.vocabulary` in the constructor after definition. missed 
 
 It said that `word` local variable had a redundant definition due to the input argument being shadowed by a local variable, however I disagree, and the code does not have a suspicious use of `word`.
 
-It did however correctly flag that `attempts[self.num_attempts]` was cleared then immediatelly extended, which is suspicious and could be replaced with one line to simply reassign the variable.
+It did however correctly flag that `attempts[self.num_attempts]` was cleared then immediately extended, which is suspicious and could be replaced with one line to simply reassign the variable.
 
 It does seem to be correct in its summary that there are no severe anomalies, and only a couple of minor suspicious definitions and updates.
