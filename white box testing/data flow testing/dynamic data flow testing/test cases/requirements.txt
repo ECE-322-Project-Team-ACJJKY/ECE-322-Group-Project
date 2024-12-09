@@ -1,0 +1,2 @@
+python-wordle==0.1.4
+coverage==7.6.8
